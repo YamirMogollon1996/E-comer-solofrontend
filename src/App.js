@@ -1,4 +1,5 @@
 import './App.css';
+
 import Pelicula from './componentes/Asset/Pelicula';
 import Modal from './Modal';
 import heart from "./componentes/Asset/corazon.svg"
@@ -14,6 +15,7 @@ import {  BrowserRouter , Route, Routes } from "react-router-dom"
 import Carritodecompra from './componentes/Carritodecompra';
 import Finalstate from './componentes/Finalstate';
 import Producsingle from './componentes/Producsingle';
+import Notas from './componentes/Notas';
 
 
 
@@ -44,7 +46,10 @@ function App() {
            <Route  path='/productos' element={ <Cart></Cart>}  />
             <Route  path='/carrito'  element={<Carritodecompra></Carritodecompra>} />
             <Route  path='/finalstate' element={<Finalstate></Finalstate>}  />
+            <Route  path='/notas'  element ={ <Notas></Notas> } ></Route>
+        
             <Route path='*'  element={ <h1>404 not found </h1>}>  </Route>
+            
         </Routes>
       
 

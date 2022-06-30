@@ -16,6 +16,7 @@ const Producsingle = () => {
                 <div  key={datos.id} className='session01'>
                 <h1>{datos.nombre}</h1>
                         <div className='Art__yamir'>
+
                         {
                                 datos.images?.length >  0 &&
                                 datos.images?.map(  (item,index) => <img  style={{
@@ -31,10 +32,7 @@ const Producsingle = () => {
 
             </div>
         
-
-
         </div>
-
 
 <div  style={{
         width:"80%",
@@ -48,7 +46,6 @@ const Producsingle = () => {
         Fecha de Salida: 03/01/2017. V110. Características Principales: - Pantalla LED de 14" HD 1366 x 768. - Procesador Intel Celeron N3350 a 1,1 GHz. - Memoria RAM de 2 GB. - Disco Duro de 500 GB a 5,400 RPM. - Gráficos Intel HD Graphics 500.
                 </h2>
         
-
 </div>
                         
     </>
